@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test thread-count="2" name="Test" parallel="classes">
+    <classes>
+      <class name="com.serviceNow.testcases.Knowledge"/>
+      <class name="com.serviceNow.testcases.CreateCaller"/>
+      <class name="com.serviceNow.testcases.CreateIncident"/>
+      <class name="com.serviceNow.testcases.CreateProblem"/>
+      <class name="com.serviceNow.testcases.UpdateProblem"/>
+      <class name="com.serviceNow.testcases.Change"/>
+      <class name="com.serviceNow.testcases.ServiceCatalogMobiles"/>
+      <class name="com.serviceNow.testcases.UpdateIncident"/>
+      <class name="com.serviceNow.testcases.ChatQueueEntry"/>
+      <class name="com.serviceNow.testcases.DeleteProblem"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
